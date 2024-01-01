@@ -1,0 +1,45 @@
+
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+bower_components/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Compiled binary addons (like node-sass)
+build/Release
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variable file
+.env
+
+# IDE (e.g., Visual Studio Code) configuration files
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# npm
+*.log
+npm-debug.log*
