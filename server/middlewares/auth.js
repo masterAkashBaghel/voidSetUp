@@ -53,7 +53,7 @@ export const isStudent = async (req,res,next) => {
        {
         return res.status(401).json({
             success: false,
-            message:" this is protected route an u are not student",
+            message:" this is protected route for student ",
         })
        }
        next();
