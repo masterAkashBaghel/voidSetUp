@@ -1,5 +1,6 @@
 import { v2 as cloudinary } from 'cloudinary';
 
+//cloudnary provides a cloud based storage mechanism 
 export const uploadImageToCloudinary = async (file,folder,height ,quality)=>{
     const options = {folder};
     if(height){
