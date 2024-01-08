@@ -2,7 +2,7 @@ import nodeMailer from "nodemailer";
 import dotenv from "dotenv";
 
 dotenv.config();
-
+//function to send the mail
 const mailSender = async (email,title,body)=>{
 
     try{
